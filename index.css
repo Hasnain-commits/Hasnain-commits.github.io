@@ -1,0 +1,13 @@
+tr > th {
+    font-size: large;
+}
+
+table {
+    width: 100%;
+    display: block;
+    display:ruby;
+}
+
+table * {
+    text-align: center;
+}
