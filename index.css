@@ -1,91 +1,22 @@
-/* Style the HTML elements according to the following instructions. 
-DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
-
-/* Give the <body> element a background of #bdc3c7*/
-body {
-    background-color: #bdc3c7;
-}
-
-/* Make the <h1> element #9b59b6*/
-h1 {
-    color: #9b59b6;
-}
-/* Make all <h2> elements orange */
-h2 {
-    color: orange;
-}
-/* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
-li {
-    color: #14619c;
-}
-/*Change the background on every paragraph to be yellow*/
-p {
-    background-color: yellow;
-}
-
-/*Make all inputs have a 3px red border*/
-input {
-    border: 3px red solid;
-}
-
-/* Give everything with the class 'hello' a white background*/
-.hello {
-    background-color: white;
-}
-/* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
-#special {
-    border: 2px solid #0384fc;
-}
-/*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
-div p {
-    font-size: 25px;
-}
-
-/*Make only inputs with type 'text' have a gray background*/
-input[type="text"] {
-    background-color: gray;
-}
-
-/* Give both <p>'s inside the 3rd <div> a pink background*/
-div:nth-of-type(3) p {
-    background-color: pink;
-}
-
-/* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
-div:nth-of-type(3) p:nth-of-type(2) {
-    border: 5px white solid;
-}
-
-/* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
-div:nth-of-type(3) em {
-    font-size: 20px;
-    color: white;
-}
-
-/*BONUS CHALLENGES*/
-/*You may need to research some other selectors and properties*/
-
-/*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
-input[type="checkbox"]:checked {
-    margin-left: 50px;
-}
-/* Make the <label> elements all UPPERCASE without changing the HTML(definitely look this one up*/
-label {
+nav {
     text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 22.5px;
+    margin-top: 10px;
+    border-bottom: 2px solid lightgray;
+    width: 8.7rem;
+    position: fixed;
+    top: -2px;
+    transform: color 2s ease-in ;
 }
 
-/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
-#special::first-letter {
-    color: green;
-    font-size: 100px
+nav:hover {
+    color: darkorange;
 }
 
-/*Make the <h1> element's color change to blue when hovered over */
-h1:hover {
-    color: blue; 
-}
-
-/*Make the <a> element's that have been visited gray */
-a:visited {
-    color: gray;
+img {
+    width:30%;
+    margin: calc(10%/6); 
+    margin-top: 25px;
 }
